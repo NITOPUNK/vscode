@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+ul{
+   
+    display: flex;
+    flex-direction:row ;
+    gap: 15px;
+}
+
+li{
+    list-style: none;
+   
+
+    
+}
+
+a{
+
+    text-decoration : none;
+     color:darkgrey;
+    
+}
+
+a:hover{
+    color: seashell;
+}
+
+.logo-bar{
+    display: inline;
+    margin-left: 30px;
+}
+
+.navlink{
+
+}
+
+
+.search-dl{
+
+
+
+}
+
+
+
+.top-download{
+    background-color: rgb(0,120,212);
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+.top-div{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+
+.a1{
+    padding: 10px;
+background-color: #378fdc;
+border-radius: 4px;
+
+}
+
+.a2{
+    padding: 10px;
+background-color: rgb(78, 78, 78);
+border-radius: 4px;
+}
+
+
+
+.card-div{
+
+    display:flex;
+    flex-direction: row;
+    gap:100px;
+    justify-content: center;
+}
+.card{
+
+    height: 200px;
+    width: 200px;
+    background-color: rgb(22,26,32);
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    border: .5px solid white;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+
+.grad-div{
+    margin-top: 30px;
+    background-image: linear-gradient(to top, #378fdc 0%, #29549f 100%);
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.ggdiv{
+  margin-left: 50px;
+}
+
+
+.pim{
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+   font-size: small;
+}
+
+
+.grid-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.small-card {
+    border: 1pt solid white;
+    height: 80px;
+    width: 100px;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    text-align: center;
+    margin: 20px; 
+    font-size: 8px;
+    box-sizing: border-box; 
+    border-radius: 5px;
+}
+  
+.small-card:hover{
+    border-color: rgb(121, 121, 121);
+
+}
+
+
+
+
+.small-card1 {
+    border: 1pt solid white;
+    height: 60px;
+    width: 60px;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    text-align: center;
+    margin: 30px; 
+    font-size: 8px;
+    box-sizing: border-box; 
+    border-radius: 5px;
+}
+  
+.small-card1:hover{
+    border-color: rgb(121, 121, 121);
+
+}
+
+
+
+
+
+footer{
+    margin-top: 50px;
+    color: aliceblue;
+    background-color: rgb(35, 35, 35);
+    justify-content: center;
+    text-align: center;
+}
